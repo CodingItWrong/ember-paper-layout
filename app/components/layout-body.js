@@ -1,0 +1,1 @@
+export { default } from 'ember-paper-layout/components/layout-body';
