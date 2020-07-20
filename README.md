@@ -13,6 +13,7 @@ A mobile-friendly layout built using `ember-paper`.
 ## Installation
 
 ```
+$ ember install ember-paper
 $ ember install ember-paper-layout
 ```
 
