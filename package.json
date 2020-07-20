@@ -1,15 +1,18 @@
 {
   "name": "ember-paper-layout",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "A mobile-friendly layout built using ember-paper.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "material",
+    "design",
+    "ember",
+    "paper"
   ],
-  "repository": "",
+  "repository": "https://github.com/CodingItWrong/ember-paper-layout",
   "license": "MIT",
-  "author": "",
+  "author": "Josh Justice <me@joshjustice.com>",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
