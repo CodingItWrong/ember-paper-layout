@@ -17,6 +17,12 @@ $ ember install ember-paper
 $ ember install ember-paper-layout
 ```
 
+Then, in `app/styles/app.scss`, import this addon's stylesheet:
+
+```diff
+ @import 'ember-paper';
++@import 'ember-paper-layout.css';
+```
 
 ## Usage
 
