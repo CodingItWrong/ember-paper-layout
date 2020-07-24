@@ -17,13 +17,6 @@ $ ember install ember-paper
 $ ember install ember-paper-layout
 ```
 
-Then, in `app/styles/app.scss`, import this addon's stylesheet:
-
-```diff
- @import 'ember-paper';
-+@import 'ember-paper-layout.css';
-```
-
 ## Usage
 
 This addon provides a single top-level `LayoutCountainer` component for the layout of the app. It yields a number of child components you can use to provide the sidenav, toolbar, and body of your page.
