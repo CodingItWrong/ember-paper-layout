@@ -9,7 +9,9 @@
         {{paper-icon "menu"}}
       </PaperButton>
     {{/if}}
-    <h2 class="hide-gt-sm">{{@title}}</h2>
+    <h2 class="hide-gt-sm" data-test-ember-paper-layout-title>
+      {{@title}}
+    </h2>
     <span class="flex"></span>
     {{yield}}
   </PaperToolbarTools>
