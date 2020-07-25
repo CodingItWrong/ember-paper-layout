@@ -1,13 +1,19 @@
 <LayoutContainer @title="My Ember App" as |layout|>
   <layout.sidenav>
-    This is the sidebar!
+    <div data-test-sidenav-content>
+      This is the sidebar!
+    </div>
   </layout.sidenav>
   <layout.body as |body|>
     <body.toolbar @showSideNavToggle={{this.session.isAuthenticated}}>
-      This is the toolbar!
+      <div data-test-toolbar-content>
+        This is the toolbar!
+      </div>
     </body.toolbar>
     <body.content>
-      {{outlet}}
+      <div data-test-outlet>
+        {{outlet}}
+      </div>
     </body.content>
   </layout.body>
 </LayoutContainer>
