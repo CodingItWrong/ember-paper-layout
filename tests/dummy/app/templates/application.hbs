@@ -1,3 +1,13 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<LayoutContainer @title="My Ember App" as |layout|>
+  <layout.sidenav>
+    This is the sidebar!
+  </layout.sidenav>
+  <layout.body as |body|>
+    <body.toolbar @showSideNavToggle={{this.session.isAuthenticated}}>
+      This is the toolbar!
+    </body.toolbar>
+    <body.content>
+      {{outlet}}
+    </body.content>
+  </layout.body>
+</LayoutContainer>
